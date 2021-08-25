@@ -1,15 +1,11 @@
-#!/usr/bin/env python
+from fractions import Fraction
 try:
 	def main():
-		while True:		
-			a = int(input("a = "))#18
-			b = int(input("b = "))#24
+		while True:
+			a = int(input("a = "))
+			b = int(input("b = "))
 
-			for i in range(1,b):
-				if a % i == 0 and b % i == 0:
-					a = a/i
-					b = b/i
-			print("{}/{}".format(a, b))
+			print(Fraction(a,b),"\n")
 	main()
 except KeyboardInterrupt:
-	print("\nGood-bye")
+	print("goodbye")
