@@ -1,7 +1,7 @@
 # mathScripts
 ## My Collection of script ive made during math class
 
-### Mathmatic Problems 
+## Mathmatic Problems 
 	1. Brøker
 		- Forkort
 		- Uforkorlige
