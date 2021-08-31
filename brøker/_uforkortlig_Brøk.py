@@ -6,7 +6,7 @@ try:
 			a = int(input("a = "))#18
 			b = int(input("b = "))#24
 
-			for i in range(1,101):
+			for i in range(1,1001):
 				if a % i == 0 and b % i == 0:
 					a = a/i
 					b = b/i

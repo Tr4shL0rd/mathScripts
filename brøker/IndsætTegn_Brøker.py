@@ -8,8 +8,8 @@ try:
 			Rfrac1 = int(input("Tæller2 = "))#2
 			Rfrac2 = int(input("Nævner2 = "))#5
 
-			checkFrac1 = int(input("Tæller3 = "))#8
-			checkFrac2 = int(input("Nævner3 = "))#10
+			#checkFrac1 = int(input("Tæller3 = "))#8
+			#checkFrac2 = int(input("Nævner3 = "))#10
 
 			Lfrac_1 = Lfrac1 * Rfrac2
 			Lfrac_2 = Lfrac2 * Rfrac2
@@ -17,12 +17,13 @@ try:
 			Rfrac_1 = Rfrac1 * Lfrac2
 			Rfrac_2 = Rfrac2 * Lfrac2
 
-			print(f"frac1: {Lfrac_1}/{Lfrac_2}")
-			print(f"frac2: {Rfrac_1}/{Rfrac_2}")
+			#print(f"frac1: {Lfrac_1}/{Lfrac_2}")
+			#print(f"frac2: {Rfrac_1}/{Rfrac_2}")
 			fracTop = Lfrac_1 + Rfrac_1
 			fracBot = Lfrac_2 
-			print(f"{fracTop}/{fracBot}")
-			loop = False
+			print("> greater than\n< less than")
+			print(f"{fracTop}/{fracBot}\n")
+			#loop = False
 	main()
 except KeyboardInterrupt:
 	print("")
