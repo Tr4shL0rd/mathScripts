@@ -23,7 +23,7 @@ try:
 			brøkBot2 = fraction4 * fraction2
 			#forkorter brøk
 			langBrøkTopS1 = brøkTop1 + brøkTop2
-			langBrøkBotS1 = fraction2 * fraction4
+			langBrøkBotS1 = fraction2 / fraction4
 			res = Fraction(langBrøkTopS1,langBrøkBotS1)
 			#giver resultat
 			print(f"{res}\n")
