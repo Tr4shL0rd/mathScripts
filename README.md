@@ -23,8 +23,4 @@
 	- find X Værdien Kvadrat 2x
 	- find X Værdien Kvadratrod
 	- find X Værdien Minus
-<<<<<<< HEAD
 	- find X Værdien Plus
-=======
-	- find X Værdien Plus
->>>>>>> 44936a59002db3154eceb1596ec1cfd785e3079f
